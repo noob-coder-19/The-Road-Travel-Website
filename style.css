@@ -44,3 +44,8 @@ html {
     background: linear-gradient(rgb(18, 117, 231, 0.5), rgba(18, 117, 231,  0.3)), url(images/header-bg.jpg) center no-repeat;
     background-size: cover;
 }
+
+.header-text {
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
