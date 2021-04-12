@@ -43,6 +43,7 @@ html {
     height: calc(100vh - 7rem);
     background: linear-gradient(rgb(18, 117, 231, 0.5), rgba(18, 117, 231,  0.3)), url(images/header-bg.jpg) center no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .header-text {
@@ -63,4 +64,25 @@ html {
     color: var(--secondary);
     max-width: 70rem;
     margin: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+.logo h1 {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.logo span {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--primary);
+    background-color: var(--white);
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
 }
