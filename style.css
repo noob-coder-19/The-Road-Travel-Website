@@ -1,0 +1,33 @@
+/* for the browser default values */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn', serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* to decrease the default font size */
+/* for using the rem unit */
+html {
+    font-size: 62.5%;
+}
+
+/* some initial variables */
+:root {
+    --primary: rgb(43, 129, 228);
+    --secondary: rgb(238, 238, 238);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(85, 85, 85);
+    --light-grey: rgb(119, 119, 119);
+}
+
+/* class to just center the element */
+/* something we will encounter very often */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
