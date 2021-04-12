@@ -36,6 +36,7 @@ html {
     background-color: var(--secondary);
     margin: 3.5rem;
     box-shadow: 0 1rem 3rem var(--grey);
+    overflow: hidden;
 }
 
 .header {
@@ -44,6 +45,7 @@ html {
     background: linear-gradient(rgb(18, 117, 231, 0.5), rgba(18, 117, 231,  0.3)), url(images/header-bg.jpg) center no-repeat;
     background-size: cover;
     position: relative;
+    perspective: 100rem;
 }
 
 .header-text {
@@ -126,5 +128,33 @@ html {
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+.header-image {
+    width: 35%;
+    animation: air-baloon 500s infinite;
+}
+
+@keyframes air-baloon {
+    0% {
+        transform: translateZ(40rem);
+        opacity: 1;
+    }
+    40% {
+        transform: translateZ(-500rem) translateX(150rem);
+        opacity: 0.7;
+    }
+    70% {
+        transform: translateZ(-1500rem) translateX(800rem);
+        opacity: 0.4;
+    }
+    80% {
+        transform: translateZ(-50rem) translateX(100rem);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateZ(40rem);
+        opacity: 1;
     }
 }
