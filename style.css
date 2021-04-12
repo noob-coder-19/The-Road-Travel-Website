@@ -37,3 +37,10 @@ html {
     margin: 3.5rem;
     box-shadow: 0 1rem 3rem var(--grey);
 }
+
+.header {
+    width: 100%;
+    height: calc(100vh - 7rem);
+    background: linear-gradient(rgb(18, 117, 231, 0.5), rgba(18, 117, 231,  0.3)), url(images/header-bg.jpg) center no-repeat;
+    background-size: cover;
+}
