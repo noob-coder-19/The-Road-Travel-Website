@@ -85,4 +85,46 @@ html {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
+    animation: dancing-letters 3s 0.4s infinite;
+}
+
+.logo span:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.logo span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.logo span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.logo span:nth-child(4) {
+    animation-delay: 0.4s;
+}
+.logo span:nth-child(5) {
+    animation-delay: 0.5s;
+}
+.logo span:nth-child(6) {
+    animation-delay: 0.6s;
+}
+.logo span:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+@keyframes dancing-letters {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-100%);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
