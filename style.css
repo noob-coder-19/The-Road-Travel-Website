@@ -158,3 +158,17 @@ html {
         opacity: 1;
     }
 }
+
+
+
+.tours {
+    padding: 5rem 0 10rem 0;
+}
+
+.tours-heading {
+    font-size: 8rem;
+    text-align: center;
+    margin-bottom: 8rem;
+    color: var(--primary);
+    text-shadow: 0 0.1rem 0.2rem var(--primary);
+}
