@@ -50,3 +50,16 @@ html {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
+
+.heading {
+    font-size: 8rem;
+    color: var(--white);
+}
+
+.header-paragraph {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--secondary);
+    max-width: 70rem;
+    margin: auto;
+}
