@@ -48,4 +48,5 @@ html {
 .header-text {
     text-align: center;
     letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
