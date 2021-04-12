@@ -49,6 +49,7 @@ html {
     text-align: center;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    text-shadow: 0 0.3rem 0.5rem var(--grey);
 }
 
 .heading {
