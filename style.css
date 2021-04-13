@@ -236,6 +236,12 @@ html {
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.747);
+    border: 0.1rem solid var(--light-grey);
+    font-size: 1.5rem;
+    color: var(--grey);
+    border-radius: 0.4rem;
 }
 
 .price {
