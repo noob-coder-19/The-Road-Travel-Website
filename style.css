@@ -398,4 +398,10 @@ html {
 
 .grp {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp .form-element {
+    width: 48.5%;
 }
