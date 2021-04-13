@@ -215,4 +215,7 @@ html {
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--light-grey);
+    margin: 2rem 0;
+    border-bottom: 0.1rem solid var(--primary);
+    padding-bottom: 1.5rem;
 }
