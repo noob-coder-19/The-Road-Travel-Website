@@ -417,3 +417,8 @@ html {
   border-radius: 0.5rem;
   transition: border 0.3s;
 }
+
+.form-element input:focus,
+.form-element textarea:focus {
+    border: 0.1rem solid rgb(194, 194, 194);
+}
