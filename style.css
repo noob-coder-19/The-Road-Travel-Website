@@ -313,3 +313,10 @@ html {
     padding: 5rem;
     margin: 5rem;
 }
+
+.testi-img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
