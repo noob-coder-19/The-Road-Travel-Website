@@ -324,8 +324,8 @@ html {
 }
 
 .testi-bg {
-    background-color: rgb(255, 166, 166);
-    /* background-color: rgba(255, 255, 255, 0.76); */
+    /* background-color: rgb(255, 166, 166); */
+    background-color: rgba(233, 233, 233, 0.692);
     padding: 5rem;
     margin: 5rem;
     width: 70%;
