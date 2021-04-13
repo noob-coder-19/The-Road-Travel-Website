@@ -231,3 +231,10 @@ html {
     box-shadow: 0 2rem 4rem rgb(119, 119, 119);
     flex-direction: column;
 }
+
+.price {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
