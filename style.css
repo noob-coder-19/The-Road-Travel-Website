@@ -318,6 +318,10 @@ html {
     transform: skewX(20deg);
 }
 
+.testi {
+    transform: skewX(-20deg);
+}
+
 .testi-img {
     width: 20rem;
     height: 20rem;
