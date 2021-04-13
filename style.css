@@ -232,6 +232,12 @@ html {
     flex-direction: column;
 }
 
+.nav-btn {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
 .price {
     color: var(--white);
     font-size: 5rem;
