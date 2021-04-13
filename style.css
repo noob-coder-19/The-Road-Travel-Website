@@ -229,4 +229,5 @@ html {
     height: 100%;
     border-radius: 0.5rem;
     box-shadow: 0 2rem 4rem rgb(119, 119, 119);
+    flex-direction: column;
 }
