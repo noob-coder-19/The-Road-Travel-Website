@@ -435,3 +435,15 @@ html {
     letter-spacing: 0.1rem;
     color: var(--grey);
 }
+
+.submit-btn {
+    cursor: pointer;
+    padding: 1rem 5rem;
+    background-color: var(--secondary);
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    color: var(--grey);
+    border: 0.2rem solid var(--grey);
+    border-radius: 2rem;
+}
