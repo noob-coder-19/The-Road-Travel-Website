@@ -386,4 +386,5 @@ html {
     height: 50rem;
     background-color: rgba(255, 255, 255, 0.767);
     box-shadow: 0 1rem 3rem black;
+    flex-direction: column;
 }
