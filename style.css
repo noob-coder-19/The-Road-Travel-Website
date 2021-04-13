@@ -483,12 +483,16 @@ html {
 .footer {
     background-color: var(--grey);
     padding: 4rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .footer-list {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 4.2rem;
 }
 
 .link {
@@ -502,4 +506,10 @@ html {
 
 .link:hover {
     box-shadow: 0 2rem 3rem black;
+}
+
+.footer-para {
+    color: var(--white);
+    font-size: 1.1rem;
+    text-align: center;
 }
