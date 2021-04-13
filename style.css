@@ -238,3 +238,12 @@ html {
     font-weight: 600;
     margin-bottom: 3rem;
 }
+
+.book-btn {
+    color: var(--white);
+    border: 0.3rem solid var(--white);
+    border-radius: 2.2rem;
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
