@@ -446,4 +446,10 @@ html {
     color: var(--grey);
     border: 0.2rem solid var(--grey);
     border-radius: 2rem;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: var(--grey);
+    color: var(--secondary);
 }
