@@ -395,6 +395,7 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
+    margin: 1rem 0;
 }
 
 .grp {
