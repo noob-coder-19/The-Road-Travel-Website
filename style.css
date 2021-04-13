@@ -490,3 +490,16 @@ html {
     justify-content: center;
     gap: 2rem;
 }
+
+.link {
+    display: block;
+    font-size: 1.6rem;
+    padding: 0.5rem 3rem;
+    color: var(--white);
+    border-radius: 0.3rem;
+    transition: 0.5s;
+}
+
+.link:hover {
+    box-shadow: 0 2rem 3rem black;
+}
