@@ -181,6 +181,7 @@ html {
 .card {
     width: 35rem;
     position: relative;
+    perspective: 150rem;
 }
 
 .front-side {
@@ -231,6 +232,8 @@ html {
     border-radius: 0.8rem;
     box-shadow: 0 2rem 4rem rgb(119, 119, 119);
     flex-direction: column;
+    transform: translateZ(-5rem) translateX(3rem);
+    opacity: 0.5;
 }
 
 .nav-btn {
