@@ -405,3 +405,15 @@ html {
 .grp .form-element {
     width: 48.5%;
 }
+
+.form-element input,
+.form-element textarea {
+  padding: 3rem 1rem 1rem 1rem;
+  background-color: var(--secondary);
+  border: 0.1rem solid var(--secondary);
+  font-size: 1.4rem;
+  color: var(--light-grey-color);
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  transition: border 0.3s;
+}
