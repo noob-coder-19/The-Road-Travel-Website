@@ -133,7 +133,7 @@ html {
 
 .header-image {
     width: 35%;
-    animation: air-baloon 500s infinite;
+    animation: air-baloon 200s infinite;
 }
 
 @keyframes air-baloon {
