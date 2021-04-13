@@ -320,6 +320,7 @@ html {
 
 .testi {
     transform: skewX(-20deg);
+    display: flex;
 }
 
 .testi-img {
