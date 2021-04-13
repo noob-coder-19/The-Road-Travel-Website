@@ -369,6 +369,9 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 8rem;
+    background: url(images/contact-us-bg.png) center no-repeat;
+    background-size: cover;
+    animation: contact-bg 35s infinite;
 }
 
 .contact-heading {
