@@ -233,6 +233,7 @@ html {
 }
 
 .nav-btn {
+    cursor: pointer;
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
@@ -242,6 +243,9 @@ html {
     font-size: 1.5rem;
     color: var(--grey);
     border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .price {
