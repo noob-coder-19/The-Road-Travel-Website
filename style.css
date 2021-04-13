@@ -306,3 +306,8 @@ html {
     flex-direction: column;
     align-items: center;
 }
+
+.testi-bg {
+    background-color: rgb(255, 166, 166);
+    /* background-color: rgba(255, 255, 255, 0.76); */
+}
