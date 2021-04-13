@@ -246,6 +246,12 @@ html {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.nav-btn:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
 }
 
 .price {
