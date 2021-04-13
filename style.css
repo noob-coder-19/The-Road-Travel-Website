@@ -380,3 +380,9 @@ html {
     color: var(--grey);
     text-shadow: 0 1rem 2rem black;
 }
+
+.contact-form {
+    width: 70rem;
+    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.767);
+}
