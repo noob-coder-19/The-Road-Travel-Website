@@ -182,6 +182,31 @@ html {
     width: 35rem;
 }
 
+.front-side {
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 0.8rem;
+    position: relative;
+}
+
 .card-image {
     width: 100%;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.tourName {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    right: 1.5rem;
+    color: var(--white);
+    text-shadow: 0 0 1rem black;
+}
+
+.card-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0 3rem 0;
 }
