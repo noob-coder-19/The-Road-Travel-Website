@@ -300,3 +300,9 @@ html {
 .testimonials {
     padding: 10rem 0;
 }
+
+.testimonial-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
