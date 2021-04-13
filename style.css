@@ -479,3 +479,8 @@ html {
     background-color: var(--grey);
     color: var(--secondary);
 }
+
+.footer {
+    background-color: var(--grey);
+    padding: 4rem 0 2rem;
+}
