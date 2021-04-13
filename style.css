@@ -240,10 +240,17 @@ html {
 }
 
 .book-btn {
+    cursor: pointer;
     color: var(--white);
     border: 0.3rem solid var(--white);
     border-radius: 2.2rem;
     background-color: var(--primary);
     padding: 1rem 2rem;
     font-size: 2rem;
+    transition: all 0.3s;
+}
+
+.book-btn:hover {
+    color: var(--primary);
+    background-color: var(--white);
 }
