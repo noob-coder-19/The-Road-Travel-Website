@@ -295,3 +295,8 @@ html {
     color: var(--primary);
     background-color: var(--white);
 }
+
+
+.testimonials {
+    padding: 10rem 0;
+}
