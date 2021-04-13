@@ -210,3 +210,9 @@ html {
     margin: 0 auto;
     padding: 2rem 0 3rem 0;
 }
+
+.card-list-item {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--light-grey);
+}
