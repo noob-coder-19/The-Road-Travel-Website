@@ -420,6 +420,11 @@ html {
   transition: border 0.3s;
 }
 
+.form-element textarea {
+    max-width: 100%;
+    max-height: 15rem;
+}
+
 .form-element input:focus,
 .form-element textarea:focus {
     border: 0.1rem solid rgb(194, 194, 194);
