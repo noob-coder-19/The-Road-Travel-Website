@@ -397,8 +397,8 @@ html {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* color: var(--white); */
-    color: var(--grey);
+    color: var(--white);
+    /* color: var(--grey); */
     text-shadow: 0 1rem 2rem black;
 }
 
